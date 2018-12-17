@@ -1,4 +1,4 @@
-var litecore = require('litecore-lib');
-litecore.P2P = require('./lib');
+var gamecore = require('gamecore-lib');
+gamecore.P2P = require('./lib');
 
-module.exports = litecore.P2P;
+module.exports = gamecore.P2P;
